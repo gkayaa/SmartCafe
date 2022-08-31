@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".AuthActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="252dp"
+        android:layout_height="226dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="430dp"
+        app:srcCompat="@drawable/logosplash" />
+
+    <EditText
+        android:id="@+id/regEmail"
+        android:layout_width="250dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="340dp"
+        android:background="@drawable/edit_text_border"
+        android:fontFamily="@font/sarala_bold"
+        android:hint="   Enter E-Mail Address"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="173dp"
+        android:background="@drawable/circle"
+        android:fontFamily="@font/sarala_bold"
+        android:text="LOG-IN" />
+
+    <EditText
+        android:id="@+id/inpPassword"
+        android:layout_width="250dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="277dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:fontFamily="@font/sarala_bold"
+        android:hint="   Enter Password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="53dp"
+        android:clickable="true"
+        android:fontFamily="@font/sarala_bold"
+        android:text="Haven't you registered yet?"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/txtForgot"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="94dp"
+        android:clickable="true"
+        android:fontFamily="@font/sarala_bold"
+        android:text="Forgot Your Password?"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

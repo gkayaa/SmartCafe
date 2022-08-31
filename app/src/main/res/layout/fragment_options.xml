@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".fragmentOptions">
+
+    <ImageButton
+        android:id="@+id/btnSignOut"
+        android:layout_width="64dp"
+        android:layout_height="61dp"
+        android:background="@drawable/circleunfilled"
+        android:src="@drawable/ic_baseline_exit_to_app_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821" />
+
+    <ImageButton
+        android:id="@+id/btnProfile"
+        android:layout_width="64dp"
+        android:layout_height="61dp"
+        android:background="@drawable/circleunfilled"
+        android:src="@drawable/ic_baseline_person_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185" />
+
+    <ImageButton
+        android:id="@+id/btnBalance"
+        android:layout_width="64dp"
+        android:layout_height="61dp"
+        android:background="@drawable/circleunfilled"
+        android:src="@drawable/ic_baseline_attach_money_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.493" />
+
+    <TextView
+        android:id="@+id/txtProfile"
+        android:layout_width="84dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:text="Edit Profile"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnProfile"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203" />
+
+    <TextView
+        android:id="@+id/txtBalance"
+        android:layout_width="83dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="4dp"
+        android:text="Add Balance"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnBalance"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSignOut"
+        android:layout_width="65dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="4dp"
+        android:text="Sign Out"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSignOut"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
+
+    <ImageButton
+        android:id="@+id/btnOrderHistory"
+        android:layout_width="64dp"
+        android:layout_height="61dp"
+        android:background="@drawable/circleunfilled"
+        android:src="@drawable/ic_baseline_history_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337" />
+
+    <TextView
+        android:id="@+id/txtOrderHistory"
+        android:layout_width="89dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:text="Order History"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnOrderHistory"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <ImageButton
+        android:id="@+id/btnAbout"
+        android:layout_width="64dp"
+        android:layout_height="61dp"
+        android:background="@drawable/circleunfilled"
+        android:src="@drawable/ic_baseline_contact_support_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.655" />
+
+    <TextView
+        android:id="@+id/txtAbout"
+        android:layout_width="67dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:text="About Us"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnAbout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
+
+    <ListView
+        android:id="@+id/listOrderHistory"
+        android:layout_width="411dp"
+        android:layout_height="532dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669">
+
+    </ListView>
+
+    <ImageButton
+        android:id="@+id/btnCloseOrderHistory"
+        android:layout_width="35dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="315dp"
+        android:layout_marginBottom="596dp"
+        android:background="@drawable/circleunfilled"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/listOrderHistory"
+        app:layout_constraintEnd_toEndOf="@+id/listOrderHistory"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="@+id/listOrderHistory"
+        app:layout_constraintTop_toTopOf="@+id/listOrderHistory"
+        app:layout_constraintVertical_bias="0.469" />
+
+    <TextView
+        android:id="@+id/txtNoOrders"
+        android:layout_width="301dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="329dp"
+        android:text="There are not any orders completed yet."
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/listOrderHistory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtUserBalance"
+        android:layout_width="363dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="56dp"
+        android:text=" Your SmartCafe Wallet:"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "740741446549",
+    "firebase_url": "https://smartcafe-f9664.firebaseio.com",
+    "project_id": "smartcafe-f9664",
+    "storage_bucket": "smartcafe-f9664.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740741446549:android:67c75aa5f241179755949c",
+        "android_client_info": {
+          "package_name": "com.example.smartcafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740741446549-i5eken8ndpne203gl0h0psmpdni8uh09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD52vw6vpr-3ru-Tb8pG3FkMj1QCLVI7oM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740741446549-i5eken8ndpne203gl0h0psmpdni8uh09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

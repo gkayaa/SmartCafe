@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/coming_soon</item>
+        <item>@font/montserrat</item>
+        <item>@font/sarala_bold</item>
+    </array>
+</resources>

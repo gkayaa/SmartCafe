@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/viewRes"
+        android:layout_width="396dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edit_text_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <TextView
+        android:id="@+id/txtOrderDate"
+        android:layout_width="210dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="178dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/viewRes"
+        app:layout_constraintTop_toTopOf="@+id/viewRes" />
+
+    <TextView
+        android:id="@+id/txtOrderPrice"
+        android:layout_width="72dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="57dp"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/viewRes"
+        app:layout_constraintTop_toTopOf="@+id/viewRes" />
+
+    <ImageButton
+        android:id="@+id/btnOrderDetails"
+        android:layout_width="34dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="44dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/viewRes"
+        app:layout_constraintEnd_toEndOf="@+id/viewRes"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/viewRes"
+        app:layout_constraintTop_toTopOf="@+id/viewRes"
+        app:layout_constraintVertical_bias="0.153"
+        app:srcCompat="@drawable/ic_baseline_info_24" />
+
+    <TextView
+        android:id="@+id/txtOrderRestaurant"
+        android:layout_width="324dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="58dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/viewRes"
+        app:layout_constraintEnd_toEndOf="@+id/viewRes"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/viewRes"
+        app:layout_constraintTop_toTopOf="@+id/viewRes"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
